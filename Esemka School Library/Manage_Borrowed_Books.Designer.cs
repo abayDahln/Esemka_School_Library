@@ -1,0 +1,1067 @@
+﻿namespace Esemka_School_Library
+{
+    partial class Manage_Borrowed_Books
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.flow = new System.Windows.Forms.FlowLayoutPanel();
+            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.nameCategories = new System.Windows.Forms.Label();
+            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnMenu = new Guna.UI2.WinForms.Guna2Button();
+            this.tbSearch = new Guna.UI2.WinForms.Guna2TextBox();
+            this.cbCategories = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.leftLeftPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelLeftBottom = new Guna.UI2.WinForms.Guna2Panel();
+            this.leftPanelLogout = new Guna.UI2.WinForms.Guna2Panel();
+            this.pLogout = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelLogout = new Guna.UI2.WinForms.Guna2Panel();
+            this.logoLogout = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.labelLogout = new System.Windows.Forms.Label();
+            this.leftPanelAccount = new Guna.UI2.WinForms.Guna2Panel();
+            this.pAccount = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelAccount = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelAccount = new System.Windows.Forms.Label();
+            this.logoAccount = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.leftPanelInfo = new Guna.UI2.WinForms.Guna2Panel();
+            this.pInfo = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelInfo = new System.Windows.Forms.Label();
+            this.logoInfo = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.panelLeftTop = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelBackMit = new Guna.UI2.WinForms.Guna2Panel();
+            this.pItem = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelManageItems = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelManageItems = new System.Windows.Forms.Label();
+            this.logoManageItem = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.panelBackMacc = new Guna.UI2.WinForms.Guna2Panel();
+            this.pMacc = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelManageAccount = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelManageAccount = new System.Windows.Forms.Label();
+            this.logoManageAccount = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.panelBackTimer = new Guna.UI2.WinForms.Guna2Panel();
+            this.pTimer = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelTimer = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelTimer = new System.Windows.Forms.Label();
+            this.logoTimer = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.panelBackCategories = new Guna.UI2.WinForms.Guna2Panel();
+            this.pCategories = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelCategories = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelCategories = new System.Windows.Forms.Label();
+            this.logoCategories = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.panelBackBooks = new Guna.UI2.WinForms.Guna2Panel();
+            this.pBook = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelBooks = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelBooks = new System.Windows.Forms.Label();
+            this.logoBooks = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.panelManageItem = new Guna.UI2.WinForms.Guna2Panel();
+            this.pHome = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelHome = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelHome = new System.Windows.Forms.Label();
+            this.logoHome = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.timerLeftPanel = new System.Windows.Forms.Timer(this.components);
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Panel1.SuspendLayout();
+            this.guna2Panel6.SuspendLayout();
+            this.guna2Panel2.SuspendLayout();
+            this.leftLeftPanel.SuspendLayout();
+            this.guna2Panel3.SuspendLayout();
+            this.panelLeftBottom.SuspendLayout();
+            this.leftPanelLogout.SuspendLayout();
+            this.panelLogout.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoLogout)).BeginInit();
+            this.leftPanelAccount.SuspendLayout();
+            this.panelAccount.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoAccount)).BeginInit();
+            this.leftPanelInfo.SuspendLayout();
+            this.panelInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoInfo)).BeginInit();
+            this.panelLeftTop.SuspendLayout();
+            this.panelBackMit.SuspendLayout();
+            this.panelManageItems.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoManageItem)).BeginInit();
+            this.panelBackMacc.SuspendLayout();
+            this.panelManageAccount.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoManageAccount)).BeginInit();
+            this.panelBackTimer.SuspendLayout();
+            this.panelTimer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoTimer)).BeginInit();
+            this.panelBackCategories.SuspendLayout();
+            this.panelCategories.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoCategories)).BeginInit();
+            this.panelBackBooks.SuspendLayout();
+            this.panelBooks.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoBooks)).BeginInit();
+            this.panelManageItem.SuspendLayout();
+            this.panelHome.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoHome)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this;
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.TargetControl = this;
+            this.guna2DragControl1.UseTransparentDrag = true;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.Controls.Add(this.guna2Panel6);
+            this.guna2Panel1.Controls.Add(this.guna2Panel5);
+            this.guna2Panel1.Controls.Add(this.guna2Panel4);
+            this.guna2Panel1.Controls.Add(this.guna2Panel2);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(1698, 969);
+            this.guna2Panel1.TabIndex = 0;
+            // 
+            // guna2Panel6
+            // 
+            this.guna2Panel6.AutoScroll = true;
+            this.guna2Panel6.BackColor = System.Drawing.Color.White;
+            this.guna2Panel6.Controls.Add(this.flow);
+            this.guna2Panel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2Panel6.Location = new System.Drawing.Point(50, 130);
+            this.guna2Panel6.Name = "guna2Panel6";
+            this.guna2Panel6.Size = new System.Drawing.Size(1598, 839);
+            this.guna2Panel6.TabIndex = 4;
+            // 
+            // flow
+            // 
+            this.flow.AutoSize = true;
+            this.flow.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flow.Location = new System.Drawing.Point(0, 0);
+            this.flow.Name = "flow";
+            this.flow.Size = new System.Drawing.Size(1598, 0);
+            this.flow.TabIndex = 0;
+            // 
+            // guna2Panel5
+            // 
+            this.guna2Panel5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.guna2Panel5.Location = new System.Drawing.Point(1648, 130);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.Size = new System.Drawing.Size(50, 839);
+            this.guna2Panel5.TabIndex = 3;
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel4.Location = new System.Drawing.Point(0, 130);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(50, 839);
+            this.guna2Panel4.TabIndex = 2;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.Controls.Add(this.guna2Button1);
+            this.guna2Panel2.Controls.Add(this.guna2ControlBox1);
+            this.guna2Panel2.Controls.Add(this.btnClose);
+            this.guna2Panel2.Controls.Add(this.nameCategories);
+            this.guna2Panel2.Controls.Add(this.guna2Panel7);
+            this.guna2Panel2.Controls.Add(this.btnMenu);
+            this.guna2Panel2.Controls.Add(this.tbSearch);
+            this.guna2Panel2.Controls.Add(this.cbCategories);
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(1698, 130);
+            this.guna2Panel2.TabIndex = 1;
+            // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.Animated = true;
+            this.guna2ControlBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox1.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.ForeColor = System.Drawing.Color.Black;
+            this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.Silver;
+            this.guna2ControlBox1.HoverState.IconColor = System.Drawing.Color.DimGray;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(129)))), ((int)(((byte)(184)))));
+            this.guna2ControlBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(1604, 0);
+            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(47, 33);
+            this.guna2ControlBox1.TabIndex = 40;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.Animated = true;
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClose.FillColor = System.Drawing.Color.White;
+            this.btnClose.ForeColor = System.Drawing.Color.Black;
+            this.btnClose.HoverState.FillColor = System.Drawing.Color.Red;
+            this.btnClose.HoverState.IconColor = System.Drawing.Color.White;
+            this.btnClose.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(129)))), ((int)(((byte)(184)))));
+            this.btnClose.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnClose.Location = new System.Drawing.Point(1650, 0);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(47, 33);
+            this.btnClose.TabIndex = 39;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // nameCategories
+            // 
+            this.nameCategories.Font = new System.Drawing.Font("Poppins SemiBold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameCategories.Location = new System.Drawing.Point(592, 17);
+            this.nameCategories.Name = "nameCategories";
+            this.nameCategories.Size = new System.Drawing.Size(514, 96);
+            this.nameCategories.TabIndex = 38;
+            this.nameCategories.Text = "Manage Borrowed Book";
+            this.nameCategories.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel7
+            // 
+            this.guna2Panel7.BackColor = System.Drawing.Color.AliceBlue;
+            this.guna2Panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.guna2Panel7.Location = new System.Drawing.Point(0, 128);
+            this.guna2Panel7.Name = "guna2Panel7";
+            this.guna2Panel7.Size = new System.Drawing.Size(1698, 2);
+            this.guna2Panel7.TabIndex = 27;
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.Animated = true;
+            this.btnMenu.AnimatedGIF = true;
+            this.btnMenu.BorderRadius = 6;
+            this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMenu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMenu.FillColor = System.Drawing.Color.White;
+            this.btnMenu.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMenu.ForeColor = System.Drawing.Color.White;
+            this.btnMenu.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnMenu.Image = global::Esemka_School_Library.Properties.Resources.menu;
+            this.btnMenu.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnMenu.Location = new System.Drawing.Point(10, 10);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(40, 40);
+            this.btnMenu.TabIndex = 26;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
+            // 
+            // tbSearch
+            // 
+            this.tbSearch.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(64)))), ((int)(((byte)(144)))));
+            this.tbSearch.BorderRadius = 14;
+            this.tbSearch.BorderThickness = 2;
+            this.tbSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbSearch.DefaultText = "";
+            this.tbSearch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tbSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tbSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tbSearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tbSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tbSearch.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSearch.ForeColor = System.Drawing.Color.DimGray;
+            this.tbSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tbSearch.IconLeft = global::Esemka_School_Library.Properties.Resources.search_gray;
+            this.tbSearch.IconLeftOffset = new System.Drawing.Point(2, 0);
+            this.tbSearch.IconLeftSize = new System.Drawing.Size(25, 25);
+            this.tbSearch.Location = new System.Drawing.Point(50, 65);
+            this.tbSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.PasswordChar = '\0';
+            this.tbSearch.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.tbSearch.PlaceholderText = "Search";
+            this.tbSearch.SelectedText = "";
+            this.tbSearch.Size = new System.Drawing.Size(307, 36);
+            this.tbSearch.TabIndex = 18;
+            this.tbSearch.TextChanged += new System.EventHandler(this.tbSearch_TextChanged);
+            // 
+            // cbCategories
+            // 
+            this.cbCategories.BackColor = System.Drawing.Color.Transparent;
+            this.cbCategories.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(64)))), ((int)(((byte)(144)))));
+            this.cbCategories.BorderRadius = 10;
+            this.cbCategories.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbCategories.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbCategories.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbCategories.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbCategories.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbCategories.FocusedState.FillColor = System.Drawing.Color.AliceBlue;
+            this.cbCategories.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbCategories.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbCategories.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.cbCategories.HoverState.FillColor = System.Drawing.Color.AliceBlue;
+            this.cbCategories.ItemHeight = 30;
+            this.cbCategories.Location = new System.Drawing.Point(1466, 65);
+            this.cbCategories.Name = "cbCategories";
+            this.cbCategories.Size = new System.Drawing.Size(182, 36);
+            this.cbCategories.TabIndex = 17;
+            this.cbCategories.TextOffset = new System.Drawing.Point(5, 0);
+            // 
+            // leftLeftPanel
+            // 
+            this.leftLeftPanel.BackColor = System.Drawing.Color.Transparent;
+            this.leftLeftPanel.BorderColor = System.Drawing.Color.DarkGray;
+            this.leftLeftPanel.BorderThickness = 2;
+            this.leftLeftPanel.Controls.Add(this.guna2Panel3);
+            this.leftLeftPanel.Location = new System.Drawing.Point(0, 0);
+            this.leftLeftPanel.Name = "leftLeftPanel";
+            this.leftLeftPanel.Size = new System.Drawing.Size(0, 969);
+            this.leftLeftPanel.TabIndex = 20;
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel3.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Panel3.BorderThickness = 2;
+            this.guna2Panel3.Controls.Add(this.panelLeftBottom);
+            this.guna2Panel3.Controls.Add(this.panelLeftTop);
+            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(240, 969);
+            this.guna2Panel3.TabIndex = 18;
+            // 
+            // panelLeftBottom
+            // 
+            this.panelLeftBottom.Controls.Add(this.leftPanelLogout);
+            this.panelLeftBottom.Controls.Add(this.leftPanelAccount);
+            this.panelLeftBottom.Controls.Add(this.leftPanelInfo);
+            this.panelLeftBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelLeftBottom.Location = new System.Drawing.Point(0, 774);
+            this.panelLeftBottom.Name = "panelLeftBottom";
+            this.panelLeftBottom.Size = new System.Drawing.Size(240, 195);
+            this.panelLeftBottom.TabIndex = 29;
+            // 
+            // leftPanelLogout
+            // 
+            this.leftPanelLogout.BackColor = System.Drawing.Color.Transparent;
+            this.leftPanelLogout.Controls.Add(this.pLogout);
+            this.leftPanelLogout.Controls.Add(this.panelLogout);
+            this.leftPanelLogout.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.leftPanelLogout.Location = new System.Drawing.Point(0, 124);
+            this.leftPanelLogout.Margin = new System.Windows.Forms.Padding(10);
+            this.leftPanelLogout.Name = "leftPanelLogout";
+            this.leftPanelLogout.Size = new System.Drawing.Size(240, 71);
+            this.leftPanelLogout.TabIndex = 23;
+            // 
+            // pLogout
+            // 
+            this.pLogout.BorderRadius = 16;
+            this.pLogout.Location = new System.Drawing.Point(12, 4);
+            this.pLogout.Name = "pLogout";
+            this.pLogout.Size = new System.Drawing.Size(220, 55);
+            this.pLogout.TabIndex = 21;
+            this.pLogout.UseTransparentBackground = true;
+            // 
+            // panelLogout
+            // 
+            this.panelLogout.BorderRadius = 16;
+            this.panelLogout.Controls.Add(this.logoLogout);
+            this.panelLogout.Controls.Add(this.labelLogout);
+            this.panelLogout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelLogout.FillColor = System.Drawing.Color.White;
+            this.panelLogout.Location = new System.Drawing.Point(12, 4);
+            this.panelLogout.Name = "panelLogout";
+            this.panelLogout.Size = new System.Drawing.Size(220, 55);
+            this.panelLogout.TabIndex = 22;
+            // 
+            // logoLogout
+            // 
+            this.logoLogout.BackColor = System.Drawing.Color.Transparent;
+            this.logoLogout.Image = global::Esemka_School_Library.Properties.Resources.logout_gray;
+            this.logoLogout.ImageRotate = 0F;
+            this.logoLogout.Location = new System.Drawing.Point(18, 11);
+            this.logoLogout.Name = "logoLogout";
+            this.logoLogout.Size = new System.Drawing.Size(35, 35);
+            this.logoLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoLogout.TabIndex = 17;
+            this.logoLogout.TabStop = false;
+            // 
+            // labelLogout
+            // 
+            this.labelLogout.AutoSize = true;
+            this.labelLogout.BackColor = System.Drawing.Color.Transparent;
+            this.labelLogout.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLogout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelLogout.Location = new System.Drawing.Point(51, 1);
+            this.labelLogout.Name = "labelLogout";
+            this.labelLogout.Padding = new System.Windows.Forms.Padding(10, 10, 0, 0);
+            this.labelLogout.Size = new System.Drawing.Size(89, 44);
+            this.labelLogout.TabIndex = 18;
+            this.labelLogout.Text = "Logout";
+            // 
+            // leftPanelAccount
+            // 
+            this.leftPanelAccount.BackColor = System.Drawing.Color.Transparent;
+            this.leftPanelAccount.Controls.Add(this.pAccount);
+            this.leftPanelAccount.Controls.Add(this.panelAccount);
+            this.leftPanelAccount.Dock = System.Windows.Forms.DockStyle.Top;
+            this.leftPanelAccount.Location = new System.Drawing.Point(0, 61);
+            this.leftPanelAccount.Name = "leftPanelAccount";
+            this.leftPanelAccount.Size = new System.Drawing.Size(240, 63);
+            this.leftPanelAccount.TabIndex = 22;
+            // 
+            // pAccount
+            // 
+            this.pAccount.BorderRadius = 16;
+            this.pAccount.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pAccount.Location = new System.Drawing.Point(12, 3);
+            this.pAccount.Name = "pAccount";
+            this.pAccount.Size = new System.Drawing.Size(220, 55);
+            this.pAccount.TabIndex = 21;
+            this.pAccount.UseTransparentBackground = true;
+            // 
+            // panelAccount
+            // 
+            this.panelAccount.BorderRadius = 16;
+            this.panelAccount.Controls.Add(this.labelAccount);
+            this.panelAccount.Controls.Add(this.logoAccount);
+            this.panelAccount.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelAccount.FillColor = System.Drawing.Color.White;
+            this.panelAccount.Location = new System.Drawing.Point(12, 3);
+            this.panelAccount.Name = "panelAccount";
+            this.panelAccount.Size = new System.Drawing.Size(220, 55);
+            this.panelAccount.TabIndex = 24;
+            // 
+            // labelAccount
+            // 
+            this.labelAccount.AutoSize = true;
+            this.labelAccount.BackColor = System.Drawing.Color.Transparent;
+            this.labelAccount.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelAccount.Location = new System.Drawing.Point(51, 1);
+            this.labelAccount.Name = "labelAccount";
+            this.labelAccount.Padding = new System.Windows.Forms.Padding(10, 10, 0, 0);
+            this.labelAccount.Size = new System.Drawing.Size(105, 44);
+            this.labelAccount.TabIndex = 22;
+            this.labelAccount.Text = "Account";
+            // 
+            // logoAccount
+            // 
+            this.logoAccount.BackColor = System.Drawing.Color.Transparent;
+            this.logoAccount.Image = global::Esemka_School_Library.Properties.Resources.account_gray;
+            this.logoAccount.ImageRotate = 0F;
+            this.logoAccount.Location = new System.Drawing.Point(18, 11);
+            this.logoAccount.Name = "logoAccount";
+            this.logoAccount.Size = new System.Drawing.Size(35, 35);
+            this.logoAccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoAccount.TabIndex = 21;
+            this.logoAccount.TabStop = false;
+            // 
+            // leftPanelInfo
+            // 
+            this.leftPanelInfo.BackColor = System.Drawing.Color.Transparent;
+            this.leftPanelInfo.Controls.Add(this.pInfo);
+            this.leftPanelInfo.Controls.Add(this.panelInfo);
+            this.leftPanelInfo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.leftPanelInfo.Location = new System.Drawing.Point(0, 0);
+            this.leftPanelInfo.Name = "leftPanelInfo";
+            this.leftPanelInfo.Size = new System.Drawing.Size(240, 61);
+            this.leftPanelInfo.TabIndex = 23;
+            // 
+            // pInfo
+            // 
+            this.pInfo.BorderRadius = 16;
+            this.pInfo.Location = new System.Drawing.Point(12, 3);
+            this.pInfo.Name = "pInfo";
+            this.pInfo.Size = new System.Drawing.Size(220, 55);
+            this.pInfo.TabIndex = 20;
+            this.pInfo.UseTransparentBackground = true;
+            // 
+            // panelInfo
+            // 
+            this.panelInfo.BorderRadius = 16;
+            this.panelInfo.Controls.Add(this.labelInfo);
+            this.panelInfo.Controls.Add(this.logoInfo);
+            this.panelInfo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelInfo.FillColor = System.Drawing.Color.White;
+            this.panelInfo.Location = new System.Drawing.Point(12, 3);
+            this.panelInfo.Name = "panelInfo";
+            this.panelInfo.Size = new System.Drawing.Size(220, 55);
+            this.panelInfo.TabIndex = 23;
+            // 
+            // labelInfo
+            // 
+            this.labelInfo.AutoSize = true;
+            this.labelInfo.BackColor = System.Drawing.Color.Transparent;
+            this.labelInfo.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelInfo.Location = new System.Drawing.Point(52, 1);
+            this.labelInfo.Name = "labelInfo";
+            this.labelInfo.Padding = new System.Windows.Forms.Padding(10, 10, 0, 0);
+            this.labelInfo.Size = new System.Drawing.Size(60, 44);
+            this.labelInfo.TabIndex = 19;
+            this.labelInfo.Text = "Info";
+            // 
+            // logoInfo
+            // 
+            this.logoInfo.BackColor = System.Drawing.Color.Transparent;
+            this.logoInfo.Image = global::Esemka_School_Library.Properties.Resources.info_gray;
+            this.logoInfo.ImageRotate = 0F;
+            this.logoInfo.Location = new System.Drawing.Point(17, 11);
+            this.logoInfo.Name = "logoInfo";
+            this.logoInfo.Size = new System.Drawing.Size(35, 35);
+            this.logoInfo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoInfo.TabIndex = 16;
+            this.logoInfo.TabStop = false;
+            // 
+            // panelLeftTop
+            // 
+            this.panelLeftTop.Controls.Add(this.panelBackMit);
+            this.panelLeftTop.Controls.Add(this.panelBackMacc);
+            this.panelLeftTop.Controls.Add(this.panelBackTimer);
+            this.panelLeftTop.Controls.Add(this.panelBackCategories);
+            this.panelLeftTop.Controls.Add(this.panelBackBooks);
+            this.panelLeftTop.Controls.Add(this.panelManageItem);
+            this.panelLeftTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLeftTop.Location = new System.Drawing.Point(0, 0);
+            this.panelLeftTop.Name = "panelLeftTop";
+            this.panelLeftTop.Size = new System.Drawing.Size(240, 415);
+            this.panelLeftTop.TabIndex = 28;
+            // 
+            // panelBackMit
+            // 
+            this.panelBackMit.BackColor = System.Drawing.Color.Transparent;
+            this.panelBackMit.Controls.Add(this.pItem);
+            this.panelBackMit.Controls.Add(this.panelManageItems);
+            this.panelBackMit.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelBackMit.Location = new System.Drawing.Point(0, 325);
+            this.panelBackMit.Name = "panelBackMit";
+            this.panelBackMit.Size = new System.Drawing.Size(240, 65);
+            this.panelBackMit.TabIndex = 17;
+            // 
+            // pItem
+            // 
+            this.pItem.BorderRadius = 16;
+            this.pItem.Location = new System.Drawing.Point(10, 10);
+            this.pItem.Name = "pItem";
+            this.pItem.Size = new System.Drawing.Size(220, 55);
+            this.pItem.TabIndex = 21;
+            this.pItem.UseTransparentBackground = true;
+            // 
+            // panelManageItems
+            // 
+            this.panelManageItems.BorderRadius = 16;
+            this.panelManageItems.Controls.Add(this.labelManageItems);
+            this.panelManageItems.Controls.Add(this.logoManageItem);
+            this.panelManageItems.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelManageItems.FillColor = System.Drawing.Color.White;
+            this.panelManageItems.Location = new System.Drawing.Point(10, 10);
+            this.panelManageItems.Name = "panelManageItems";
+            this.panelManageItems.Size = new System.Drawing.Size(220, 55);
+            this.panelManageItems.TabIndex = 26;
+            // 
+            // labelManageItems
+            // 
+            this.labelManageItems.AutoSize = true;
+            this.labelManageItems.BackColor = System.Drawing.Color.Transparent;
+            this.labelManageItems.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelManageItems.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelManageItems.Location = new System.Drawing.Point(53, 7);
+            this.labelManageItems.Name = "labelManageItems";
+            this.labelManageItems.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.labelManageItems.Size = new System.Drawing.Size(127, 38);
+            this.labelManageItems.TabIndex = 18;
+            this.labelManageItems.Text = "Manage Items";
+            // 
+            // logoManageItem
+            // 
+            this.logoManageItem.BackColor = System.Drawing.Color.Transparent;
+            this.logoManageItem.Image = global::Esemka_School_Library.Properties.Resources.folder_managed_gray;
+            this.logoManageItem.ImageRotate = 0F;
+            this.logoManageItem.Location = new System.Drawing.Point(13, 10);
+            this.logoManageItem.Name = "logoManageItem";
+            this.logoManageItem.Size = new System.Drawing.Size(35, 35);
+            this.logoManageItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoManageItem.TabIndex = 17;
+            this.logoManageItem.TabStop = false;
+            // 
+            // panelBackMacc
+            // 
+            this.panelBackMacc.BackColor = System.Drawing.Color.Transparent;
+            this.panelBackMacc.Controls.Add(this.pMacc);
+            this.panelBackMacc.Controls.Add(this.panelManageAccount);
+            this.panelBackMacc.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelBackMacc.Location = new System.Drawing.Point(0, 260);
+            this.panelBackMacc.Name = "panelBackMacc";
+            this.panelBackMacc.Size = new System.Drawing.Size(240, 65);
+            this.panelBackMacc.TabIndex = 18;
+            // 
+            // pMacc
+            // 
+            this.pMacc.BorderRadius = 16;
+            this.pMacc.Location = new System.Drawing.Point(10, 10);
+            this.pMacc.Name = "pMacc";
+            this.pMacc.Size = new System.Drawing.Size(220, 55);
+            this.pMacc.TabIndex = 22;
+            this.pMacc.UseTransparentBackground = true;
+            // 
+            // panelManageAccount
+            // 
+            this.panelManageAccount.BorderRadius = 16;
+            this.panelManageAccount.Controls.Add(this.labelManageAccount);
+            this.panelManageAccount.Controls.Add(this.logoManageAccount);
+            this.panelManageAccount.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelManageAccount.FillColor = System.Drawing.Color.White;
+            this.panelManageAccount.Location = new System.Drawing.Point(10, 10);
+            this.panelManageAccount.Name = "panelManageAccount";
+            this.panelManageAccount.Size = new System.Drawing.Size(220, 55);
+            this.panelManageAccount.TabIndex = 26;
+            // 
+            // labelManageAccount
+            // 
+            this.labelManageAccount.AutoSize = true;
+            this.labelManageAccount.BackColor = System.Drawing.Color.Transparent;
+            this.labelManageAccount.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelManageAccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelManageAccount.Location = new System.Drawing.Point(54, 7);
+            this.labelManageAccount.Name = "labelManageAccount";
+            this.labelManageAccount.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.labelManageAccount.Size = new System.Drawing.Size(150, 38);
+            this.labelManageAccount.TabIndex = 18;
+            this.labelManageAccount.Text = "Manage Account";
+            // 
+            // logoManageAccount
+            // 
+            this.logoManageAccount.BackColor = System.Drawing.Color.Transparent;
+            this.logoManageAccount.Image = global::Esemka_School_Library.Properties.Resources.manage_accounts_gray;
+            this.logoManageAccount.ImageRotate = 0F;
+            this.logoManageAccount.Location = new System.Drawing.Point(13, 10);
+            this.logoManageAccount.Name = "logoManageAccount";
+            this.logoManageAccount.Size = new System.Drawing.Size(35, 35);
+            this.logoManageAccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoManageAccount.TabIndex = 17;
+            this.logoManageAccount.TabStop = false;
+            // 
+            // panelBackTimer
+            // 
+            this.panelBackTimer.BackColor = System.Drawing.Color.Transparent;
+            this.panelBackTimer.Controls.Add(this.pTimer);
+            this.panelBackTimer.Controls.Add(this.panelTimer);
+            this.panelBackTimer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelBackTimer.Location = new System.Drawing.Point(0, 195);
+            this.panelBackTimer.Name = "panelBackTimer";
+            this.panelBackTimer.Size = new System.Drawing.Size(240, 65);
+            this.panelBackTimer.TabIndex = 22;
+            // 
+            // pTimer
+            // 
+            this.pTimer.BorderRadius = 16;
+            this.pTimer.Location = new System.Drawing.Point(10, 10);
+            this.pTimer.Name = "pTimer";
+            this.pTimer.Size = new System.Drawing.Size(220, 55);
+            this.pTimer.TabIndex = 22;
+            this.pTimer.UseTransparentBackground = true;
+            // 
+            // panelTimer
+            // 
+            this.panelTimer.BorderRadius = 16;
+            this.panelTimer.Controls.Add(this.labelTimer);
+            this.panelTimer.Controls.Add(this.logoTimer);
+            this.panelTimer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelTimer.FillColor = System.Drawing.Color.White;
+            this.panelTimer.Location = new System.Drawing.Point(10, 10);
+            this.panelTimer.Name = "panelTimer";
+            this.panelTimer.Size = new System.Drawing.Size(220, 55);
+            this.panelTimer.TabIndex = 24;
+            // 
+            // labelTimer
+            // 
+            this.labelTimer.AutoSize = true;
+            this.labelTimer.BackColor = System.Drawing.Color.Transparent;
+            this.labelTimer.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTimer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelTimer.Location = new System.Drawing.Point(47, 3);
+            this.labelTimer.Name = "labelTimer";
+            this.labelTimer.Padding = new System.Windows.Forms.Padding(10, 10, 0, 0);
+            this.labelTimer.Size = new System.Drawing.Size(79, 44);
+            this.labelTimer.TabIndex = 18;
+            this.labelTimer.Text = "Timer";
+            // 
+            // logoTimer
+            // 
+            this.logoTimer.BackColor = System.Drawing.Color.Transparent;
+            this.logoTimer.Image = global::Esemka_School_Library.Properties.Resources.timer_gray;
+            this.logoTimer.ImageRotate = 0F;
+            this.logoTimer.Location = new System.Drawing.Point(13, 10);
+            this.logoTimer.Name = "logoTimer";
+            this.logoTimer.Size = new System.Drawing.Size(35, 35);
+            this.logoTimer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoTimer.TabIndex = 17;
+            this.logoTimer.TabStop = false;
+            // 
+            // panelBackCategories
+            // 
+            this.panelBackCategories.BackColor = System.Drawing.Color.Transparent;
+            this.panelBackCategories.Controls.Add(this.pCategories);
+            this.panelBackCategories.Controls.Add(this.panelCategories);
+            this.panelBackCategories.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelBackCategories.Location = new System.Drawing.Point(0, 130);
+            this.panelBackCategories.Name = "panelBackCategories";
+            this.panelBackCategories.Size = new System.Drawing.Size(240, 65);
+            this.panelBackCategories.TabIndex = 23;
+            // 
+            // pCategories
+            // 
+            this.pCategories.BorderRadius = 16;
+            this.pCategories.Location = new System.Drawing.Point(10, 10);
+            this.pCategories.Name = "pCategories";
+            this.pCategories.Size = new System.Drawing.Size(220, 55);
+            this.pCategories.TabIndex = 22;
+            this.pCategories.UseTransparentBackground = true;
+            // 
+            // panelCategories
+            // 
+            this.panelCategories.BorderRadius = 16;
+            this.panelCategories.Controls.Add(this.labelCategories);
+            this.panelCategories.Controls.Add(this.logoCategories);
+            this.panelCategories.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelCategories.FillColor = System.Drawing.Color.White;
+            this.panelCategories.Location = new System.Drawing.Point(10, 10);
+            this.panelCategories.Name = "panelCategories";
+            this.panelCategories.Size = new System.Drawing.Size(220, 55);
+            this.panelCategories.TabIndex = 24;
+            // 
+            // labelCategories
+            // 
+            this.labelCategories.AutoSize = true;
+            this.labelCategories.BackColor = System.Drawing.Color.Transparent;
+            this.labelCategories.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCategories.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelCategories.Location = new System.Drawing.Point(47, 3);
+            this.labelCategories.Name = "labelCategories";
+            this.labelCategories.Padding = new System.Windows.Forms.Padding(10, 10, 0, 0);
+            this.labelCategories.Size = new System.Drawing.Size(131, 44);
+            this.labelCategories.TabIndex = 18;
+            this.labelCategories.Text = "Categories";
+            // 
+            // logoCategories
+            // 
+            this.logoCategories.BackColor = System.Drawing.Color.Transparent;
+            this.logoCategories.Image = global::Esemka_School_Library.Properties.Resources.widgets_gray;
+            this.logoCategories.ImageRotate = 0F;
+            this.logoCategories.Location = new System.Drawing.Point(13, 10);
+            this.logoCategories.Name = "logoCategories";
+            this.logoCategories.Size = new System.Drawing.Size(35, 35);
+            this.logoCategories.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoCategories.TabIndex = 17;
+            this.logoCategories.TabStop = false;
+            // 
+            // panelBackBooks
+            // 
+            this.panelBackBooks.BackColor = System.Drawing.Color.Transparent;
+            this.panelBackBooks.BorderRadius = 16;
+            this.panelBackBooks.Controls.Add(this.pBook);
+            this.panelBackBooks.Controls.Add(this.panelBooks);
+            this.panelBackBooks.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelBackBooks.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelBackBooks.FillColor = System.Drawing.Color.Transparent;
+            this.panelBackBooks.Location = new System.Drawing.Point(0, 65);
+            this.panelBackBooks.Name = "panelBackBooks";
+            this.panelBackBooks.Size = new System.Drawing.Size(240, 65);
+            this.panelBackBooks.TabIndex = 25;
+            // 
+            // pBook
+            // 
+            this.pBook.BorderRadius = 16;
+            this.pBook.Location = new System.Drawing.Point(10, 10);
+            this.pBook.Name = "pBook";
+            this.pBook.Size = new System.Drawing.Size(220, 55);
+            this.pBook.TabIndex = 22;
+            this.pBook.UseTransparentBackground = true;
+            // 
+            // panelBooks
+            // 
+            this.panelBooks.BorderRadius = 16;
+            this.panelBooks.Controls.Add(this.labelBooks);
+            this.panelBooks.Controls.Add(this.logoBooks);
+            this.panelBooks.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelBooks.FillColor = System.Drawing.Color.White;
+            this.panelBooks.Location = new System.Drawing.Point(10, 10);
+            this.panelBooks.Name = "panelBooks";
+            this.panelBooks.Size = new System.Drawing.Size(220, 55);
+            this.panelBooks.TabIndex = 24;
+            // 
+            // labelBooks
+            // 
+            this.labelBooks.AutoSize = true;
+            this.labelBooks.BackColor = System.Drawing.Color.Transparent;
+            this.labelBooks.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelBooks.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelBooks.Location = new System.Drawing.Point(47, 3);
+            this.labelBooks.Name = "labelBooks";
+            this.labelBooks.Padding = new System.Windows.Forms.Padding(10, 10, 0, 0);
+            this.labelBooks.Size = new System.Drawing.Size(81, 44);
+            this.labelBooks.TabIndex = 18;
+            this.labelBooks.Text = "Books";
+            // 
+            // logoBooks
+            // 
+            this.logoBooks.BackColor = System.Drawing.Color.Transparent;
+            this.logoBooks.Image = global::Esemka_School_Library.Properties.Resources.book_gray;
+            this.logoBooks.ImageRotate = 0F;
+            this.logoBooks.Location = new System.Drawing.Point(13, 10);
+            this.logoBooks.Name = "logoBooks";
+            this.logoBooks.Size = new System.Drawing.Size(35, 35);
+            this.logoBooks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoBooks.TabIndex = 17;
+            this.logoBooks.TabStop = false;
+            // 
+            // panelManageItem
+            // 
+            this.panelManageItem.BackColor = System.Drawing.Color.Transparent;
+            this.panelManageItem.BorderRadius = 16;
+            this.panelManageItem.Controls.Add(this.pHome);
+            this.panelManageItem.Controls.Add(this.panelHome);
+            this.panelManageItem.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelManageItem.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelManageItem.FillColor = System.Drawing.Color.Transparent;
+            this.panelManageItem.Location = new System.Drawing.Point(0, 0);
+            this.panelManageItem.Name = "panelManageItem";
+            this.panelManageItem.Size = new System.Drawing.Size(240, 65);
+            this.panelManageItem.TabIndex = 27;
+            // 
+            // pHome
+            // 
+            this.pHome.BorderRadius = 16;
+            this.pHome.Location = new System.Drawing.Point(10, 10);
+            this.pHome.Name = "pHome";
+            this.pHome.Size = new System.Drawing.Size(220, 55);
+            this.pHome.TabIndex = 22;
+            this.pHome.UseTransparentBackground = true;
+            // 
+            // panelHome
+            // 
+            this.panelHome.BorderRadius = 16;
+            this.panelHome.Controls.Add(this.labelHome);
+            this.panelHome.Controls.Add(this.logoHome);
+            this.panelHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelHome.FillColor = System.Drawing.Color.White;
+            this.panelHome.Location = new System.Drawing.Point(10, 10);
+            this.panelHome.Name = "panelHome";
+            this.panelHome.Size = new System.Drawing.Size(220, 55);
+            this.panelHome.TabIndex = 23;
+            // 
+            // labelHome
+            // 
+            this.labelHome.AutoSize = true;
+            this.labelHome.BackColor = System.Drawing.Color.Transparent;
+            this.labelHome.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelHome.Location = new System.Drawing.Point(47, 3);
+            this.labelHome.Name = "labelHome";
+            this.labelHome.Padding = new System.Windows.Forms.Padding(10, 10, 0, 0);
+            this.labelHome.Size = new System.Drawing.Size(82, 44);
+            this.labelHome.TabIndex = 18;
+            this.labelHome.Text = "Home";
+            // 
+            // logoHome
+            // 
+            this.logoHome.BackColor = System.Drawing.Color.Transparent;
+            this.logoHome.BorderRadius = 16;
+            this.logoHome.Image = global::Esemka_School_Library.Properties.Resources.home_gray;
+            this.logoHome.ImageRotate = 0F;
+            this.logoHome.Location = new System.Drawing.Point(13, 10);
+            this.logoHome.Name = "logoHome";
+            this.logoHome.Size = new System.Drawing.Size(35, 35);
+            this.logoHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoHome.TabIndex = 17;
+            this.logoHome.TabStop = false;
+            // 
+            // timerLeftPanel
+            // 
+            this.timerLeftPanel.Interval = 1;
+            this.timerLeftPanel.Tick += new System.EventHandler(this.timerLeftPanel_Tick);
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.AnimatedGIF = true;
+            this.guna2Button1.BorderRadius = 6;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.White;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.guna2Button1.Image = global::Esemka_School_Library.Properties.Resources.arrow_back_gray;
+            this.guna2Button1.ImageOffset = new System.Drawing.Point(4, 0);
+            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button1.Location = new System.Drawing.Point(50, 10);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(40, 40);
+            this.guna2Button1.TabIndex = 59;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // Manage_Borrowed_Books
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1698, 969);
+            this.Controls.Add(this.leftLeftPanel);
+            this.Controls.Add(this.guna2Panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Manage_Borrowed_Books";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Manage_Borrowed_Books";
+            this.Load += new System.EventHandler(this.Manage_Borrowed_Books_Load);
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel6.ResumeLayout(false);
+            this.guna2Panel6.PerformLayout();
+            this.guna2Panel2.ResumeLayout(false);
+            this.leftLeftPanel.ResumeLayout(false);
+            this.guna2Panel3.ResumeLayout(false);
+            this.panelLeftBottom.ResumeLayout(false);
+            this.leftPanelLogout.ResumeLayout(false);
+            this.panelLogout.ResumeLayout(false);
+            this.panelLogout.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoLogout)).EndInit();
+            this.leftPanelAccount.ResumeLayout(false);
+            this.panelAccount.ResumeLayout(false);
+            this.panelAccount.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoAccount)).EndInit();
+            this.leftPanelInfo.ResumeLayout(false);
+            this.panelInfo.ResumeLayout(false);
+            this.panelInfo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoInfo)).EndInit();
+            this.panelLeftTop.ResumeLayout(false);
+            this.panelBackMit.ResumeLayout(false);
+            this.panelManageItems.ResumeLayout(false);
+            this.panelManageItems.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoManageItem)).EndInit();
+            this.panelBackMacc.ResumeLayout(false);
+            this.panelManageAccount.ResumeLayout(false);
+            this.panelManageAccount.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoManageAccount)).EndInit();
+            this.panelBackTimer.ResumeLayout(false);
+            this.panelTimer.ResumeLayout(false);
+            this.panelTimer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoTimer)).EndInit();
+            this.panelBackCategories.ResumeLayout(false);
+            this.panelCategories.ResumeLayout(false);
+            this.panelCategories.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoCategories)).EndInit();
+            this.panelBackBooks.ResumeLayout(false);
+            this.panelBooks.ResumeLayout(false);
+            this.panelBooks.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoBooks)).EndInit();
+            this.panelManageItem.ResumeLayout(false);
+            this.panelHome.ResumeLayout(false);
+            this.panelHome.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logoHome)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel leftLeftPanel;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Panel panelLeftBottom;
+        private Guna.UI2.WinForms.Guna2Panel leftPanelLogout;
+        private Guna.UI2.WinForms.Guna2Panel pLogout;
+        private Guna.UI2.WinForms.Guna2Panel panelLogout;
+        private Guna.UI2.WinForms.Guna2PictureBox logoLogout;
+        private System.Windows.Forms.Label labelLogout;
+        private Guna.UI2.WinForms.Guna2Panel leftPanelAccount;
+        private Guna.UI2.WinForms.Guna2Panel pAccount;
+        private Guna.UI2.WinForms.Guna2Panel panelAccount;
+        private System.Windows.Forms.Label labelAccount;
+        private Guna.UI2.WinForms.Guna2PictureBox logoAccount;
+        private Guna.UI2.WinForms.Guna2Panel leftPanelInfo;
+        private Guna.UI2.WinForms.Guna2Panel pInfo;
+        private Guna.UI2.WinForms.Guna2Panel panelInfo;
+        private System.Windows.Forms.Label labelInfo;
+        private Guna.UI2.WinForms.Guna2PictureBox logoInfo;
+        private Guna.UI2.WinForms.Guna2Panel panelLeftTop;
+        private Guna.UI2.WinForms.Guna2Panel panelBackMit;
+        private Guna.UI2.WinForms.Guna2Panel pItem;
+        private Guna.UI2.WinForms.Guna2Panel panelManageItems;
+        private System.Windows.Forms.Label labelManageItems;
+        private Guna.UI2.WinForms.Guna2PictureBox logoManageItem;
+        private Guna.UI2.WinForms.Guna2Panel panelBackMacc;
+        private Guna.UI2.WinForms.Guna2Panel pMacc;
+        private Guna.UI2.WinForms.Guna2Panel panelManageAccount;
+        private System.Windows.Forms.Label labelManageAccount;
+        private Guna.UI2.WinForms.Guna2PictureBox logoManageAccount;
+        private Guna.UI2.WinForms.Guna2Panel panelBackTimer;
+        private Guna.UI2.WinForms.Guna2Panel pTimer;
+        private Guna.UI2.WinForms.Guna2Panel panelTimer;
+        private System.Windows.Forms.Label labelTimer;
+        private Guna.UI2.WinForms.Guna2PictureBox logoTimer;
+        private Guna.UI2.WinForms.Guna2Panel panelBackCategories;
+        private Guna.UI2.WinForms.Guna2Panel pCategories;
+        private Guna.UI2.WinForms.Guna2Panel panelCategories;
+        private System.Windows.Forms.Label labelCategories;
+        private Guna.UI2.WinForms.Guna2PictureBox logoCategories;
+        private Guna.UI2.WinForms.Guna2Panel panelBackBooks;
+        private Guna.UI2.WinForms.Guna2Panel pBook;
+        private Guna.UI2.WinForms.Guna2Panel panelBooks;
+        private System.Windows.Forms.Label labelBooks;
+        private Guna.UI2.WinForms.Guna2PictureBox logoBooks;
+        private Guna.UI2.WinForms.Guna2Panel panelManageItem;
+        private Guna.UI2.WinForms.Guna2Panel pHome;
+        private Guna.UI2.WinForms.Guna2Panel panelHome;
+        private System.Windows.Forms.Label labelHome;
+        private Guna.UI2.WinForms.Guna2PictureBox logoHome;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private System.Windows.Forms.FlowLayoutPanel flow;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        public Guna.UI2.WinForms.Guna2ComboBox cbCategories;
+        private Guna.UI2.WinForms.Guna2TextBox tbSearch;
+        private Guna.UI2.WinForms.Guna2Button btnMenu;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
+        public System.Windows.Forms.Label nameCategories;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private Guna.UI2.WinForms.Guna2ControlBox btnClose;
+        private System.Windows.Forms.Timer timerLeftPanel;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+    }
+}

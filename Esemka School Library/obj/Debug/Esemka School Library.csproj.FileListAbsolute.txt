@@ -1,0 +1,39 @@
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\bin\Debug\Esemka School Library.exe.config
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\bin\Debug\Esemka School Library.exe
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\bin\Debug\Esemka School Library.pdb
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\bin\Debug\Guna.UI2.dll
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka School Library.csproj.AssemblyReference.cache
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Properties.Resources.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka School Library.csproj.GenerateResource.cache
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka School Library.csproj.CoreCompileInputs.cache
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka S.626F25F4.Up2Date
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka School Library.exe
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka School Library.pdb
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Login_Form.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Main_Form.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Book_Object.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Search_Form.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Book_Control.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Categories_Crud.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Categories_Dialog.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Book_Control_Main.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.More_Categories_Dialog.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Detail_Book_Form.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Account_Dialog.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Info_Dialog.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Manage_Member_Form.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Manage_Non_Member_Form.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Manage_Item_Form.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Borrow_Day_Dialog.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Day_Control.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Borrowed_Book_Control.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Manage_Borrowed_Books.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Return_Confirm_Dialog.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Timer_Book_Control.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Timer_Borrowed_Book_Form.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Manage_Account_Form.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Book_Crud.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Manage_Books_Form.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Book_Dialog.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Saved_Book_Form.resources
+C:\Users\MyBook Hype AMD\source\repos\Esemka School Library\Esemka School Library\obj\Debug\Esemka_School_Library.Manage_Categories_Form.resources
