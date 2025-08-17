@@ -140,7 +140,7 @@ Aplikasi **Library Management System** berbasis **C# WinForms + LINQ to SQL + SQ
 
 5. Sesuaikan server database kamu di file App.config:
 
-![AppConfig](https://res.cloudinary.com/dueixuonp/image/upload/v1755425494/AppConfig_dnnqk0.png)
+![AppConfig](https://res.cloudinary.com/dueixuonp/image/upload/v1755438749/AppConfig_t2utrh.png)
 
 6. Jalankan aplikasinya dengan tombol Run di atas atau shortcut (F5)
 
