@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4856245D-CC6F-4A54-9FF7-D4F93A8AC195}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Esemka_School_Library</RootNamespace>
+    <AssemblyName>Esemka School Library</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account_Dialog.Designer.cs">
+      <DependentUpon>Account_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book_Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Book_Control.Designer.cs">
+      <DependentUpon>Book_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book_Control_Main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Book_Control_Main.Designer.cs">
+      <DependentUpon>Book_Control_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book_Crud.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Book_Crud.Designer.cs">
+      <DependentUpon>Book_Crud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book_Dialog.Designer.cs">
+      <DependentUpon>Book_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book_Object.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Book_Object.Designer.cs">
+      <DependentUpon>Book_Object.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Borrowed_Book_Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Borrowed_Book_Control.Designer.cs">
+      <DependentUpon>Borrowed_Book_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Borrow_Day_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrow_Day_Dialog.Designer.cs">
+      <DependentUpon>Borrow_Day_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categories_Crud.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Categories_Crud.Designer.cs">
+      <DependentUpon>Categories_Crud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categories_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories_Dialog.Designer.cs">
+      <DependentUpon>Categories_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataStorage.cs" />
+    <Compile Include="Day_Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Day_Control.Designer.cs">
+      <DependentUpon>Day_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Detail_Book_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detail_Book_Form.Designer.cs">
+      <DependentUpon>Detail_Book_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Dialog.Designer.cs">
+      <DependentUpon>Info_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Form.Designer.cs">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Form.Designer.cs">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Account_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Account_Form.Designer.cs">
+      <DependentUpon>Manage_Account_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Books_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Books_Form.Designer.cs">
+      <DependentUpon>Manage_Books_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Borrowed_Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Borrowed_Books.Designer.cs">
+      <DependentUpon>Manage_Borrowed_Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Categories_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Categories_Form.Designer.cs">
+      <DependentUpon>Manage_Categories_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Item_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Item_Form.Designer.cs">
+      <DependentUpon>Manage_Item_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Member_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Member_Form.Designer.cs">
+      <DependentUpon>Manage_Member_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Non_Member_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Non_Member_Form.Designer.cs">
+      <DependentUpon>Manage_Non_Member_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="More_Categories_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="More_Categories_Dialog.Designer.cs">
+      <DependentUpon>More_Categories_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Return_Confirm_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Return_Confirm_Dialog.Designer.cs">
+      <DependentUpon>Return_Confirm_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Saved_Book_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saved_Book_Form.Designer.cs">
+      <DependentUpon>Saved_Book_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search_Form.Designer.cs">
+      <DependentUpon>Search_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Timer_Book_Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Timer_Book_Control.Designer.cs">
+      <DependentUpon>Timer_Book_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Timer_Borrowed_Book_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Timer_Borrowed_Book_Form.Designer.cs">
+      <DependentUpon>Timer_Borrowed_Book_Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Account_Dialog.resx">
+      <DependentUpon>Account_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book_Control.resx">
+      <DependentUpon>Book_Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book_Control_Main.resx">
+      <DependentUpon>Book_Control_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book_Crud.resx">
+      <DependentUpon>Book_Crud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book_Dialog.resx">
+      <DependentUpon>Book_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book_Object.resx">
+      <DependentUpon>Book_Object.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Borrowed_Book_Control.resx">
+      <DependentUpon>Borrowed_Book_Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Borrow_Day_Dialog.resx">
+      <DependentUpon>Borrow_Day_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories_Crud.resx">
+      <DependentUpon>Categories_Crud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories_Dialog.resx">
+      <DependentUpon>Categories_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day_Control.resx">
+      <DependentUpon>Day_Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail_Book_Form.resx">
+      <DependentUpon>Detail_Book_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Dialog.resx">
+      <DependentUpon>Info_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Account_Form.resx">
+      <DependentUpon>Manage_Account_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Books_Form.resx">
+      <DependentUpon>Manage_Books_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Borrowed_Books.resx">
+      <DependentUpon>Manage_Borrowed_Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Categories_Form.resx">
+      <DependentUpon>Manage_Categories_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Item_Form.resx">
+      <DependentUpon>Manage_Item_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Member_Form.resx">
+      <DependentUpon>Manage_Member_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Non_Member_Form.resx">
+      <DependentUpon>Manage_Non_Member_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="More_Categories_Dialog.resx">
+      <DependentUpon>More_Categories_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Return_Confirm_Dialog.resx">
+      <DependentUpon>Return_Confirm_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Saved_Book_Form.resx">
+      <DependentUpon>Saved_Book_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search_Form.resx">
+      <DependentUpon>Search_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timer_Book_Control.resx">
+      <DependentUpon>Timer_Book_Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timer_Borrowed_Book_Form.resx">
+      <DependentUpon>Timer_Borrowed_Book_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataClasses.dbml.layout">
+      <DependentUpon>DataClasses.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Login_Form.resx">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DataClasses.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forest_Wallpaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SMKN10.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoSmkn10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forest_wallpaper3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forest_wallpaper2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_mode_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_mode_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_mode_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_mode_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_mode_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_mode_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laskar Pelangi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reorder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atomic Habits.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Psychology of Money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filosofi Teras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atomic_Habits.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dilan 1990.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filosofi Kopi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harry Potter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laskar_Pelangi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secrets of Divine Love.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_forward_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\widgets_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage_accounts_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_managed_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fantasi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fiksi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ilmu_Sosial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perbaiki_Diri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teknologi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bahasa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Biografi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background_Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background_Main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorite_fill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark_fill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dilan_1990.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\category_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_back_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage_book_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage_category_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage_history_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

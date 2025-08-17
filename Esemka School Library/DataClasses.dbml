@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="EsemkaLibrary" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MYBOOKHYPEAMD;Initial Catalog=EsemkaLibrary;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="Esemka_School_Library.Properties.Settings" SettingsPropertyName="EsemkaLibraryConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Books" Member="Books">
+    <Type Name="Book">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Categories_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Writer" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Publication_Year" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Synopsis" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Rating" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Likes" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Image" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Stock" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Book_Saved_Book" Member="Saved_Books" ThisKey="Id" OtherKey="Book_Id" Type="Saved_Book" />
+      <Association Name="Book_Borrow_Book" Member="Borrow_Books" ThisKey="Id" OtherKey="book_Id" Type="Borrow_Book" />
+      <Association Name="Category_Book" Member="Category" ThisKey="Categories_Id" OtherKey="Id" Type="Category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Saved_Books" Member="Saved_Books">
+    <Type Name="Saved_Book">
+      <Column Name="Book_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Member_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Non_Member_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="Book_Saved_Book" Member="Book" ThisKey="Book_Id" OtherKey="Id" Type="Book" IsForeignKey="true" />
+      <Association Name="Member_Saved_Book" Member="Member" ThisKey="Member_Id" OtherKey="Id" Type="Member" IsForeignKey="true" />
+      <Association Name="Non_Member_Saved_Book" Member="Non_Member" ThisKey="Non_Member_Id" OtherKey="Id" Type="Non_Member" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Borrow_Books" Member="Borrow_Books">
+    <Type Name="Borrow_Book">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="member_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="book_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="borrow_category_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="borrow_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="book_return_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="is_return" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Association Name="Book_Borrow_Book" Member="Book" ThisKey="book_Id" OtherKey="Id" Type="Book" IsForeignKey="true" />
+      <Association Name="Borrow_Category_Borrow_Book" Member="Borrow_Category" ThisKey="borrow_category_Id" OtherKey="Id" Type="Borrow_Category" IsForeignKey="true" />
+      <Association Name="Member_Borrow_Book" Member="Member" ThisKey="member_Id" OtherKey="Id" Type="Member" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Borrow_Category" Member="Borrow_Categories">
+    <Type Name="Borrow_Category">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Category" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Borrow_Category_Borrow_Book" Member="Borrow_Books" ThisKey="Id" OtherKey="borrow_category_Id" Type="Borrow_Book" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Categories" Member="Categories">
+    <Type Name="Category">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Image" Type="System.Data.Linq.Binary" DbType="Image NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="Category_Book" Member="Books" ThisKey="Id" OtherKey="Categories_Id" Type="Book" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Member" Member="Members">
+    <Type Name="Member">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Member_Saved_Book" Member="Saved_Books" ThisKey="Id" OtherKey="Member_Id" Type="Saved_Book" />
+      <Association Name="Member_Borrow_Book" Member="Borrow_Books" ThisKey="Id" OtherKey="member_Id" Type="Borrow_Book" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Non-Member]" Member="Non_Members">
+    <Type Name="Non_Member">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Non_Member_Saved_Book" Member="Saved_Books" ThisKey="Id" OtherKey="Non_Member_Id" Type="Saved_Book" />
+    </Type>
+  </Table>
+</Database>
