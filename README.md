@@ -162,9 +162,8 @@ Aplikasi ini dibuat untuk keperluan **tugas sekolah** dan bukan untuk penggunaan
 ---
 
 ## 📜 Lisensi
-Project ini dirilis sebagai **open source** di bawah lisensi [MIT License](LICENSE).  
-Artinya, kamu bebas menggunakan, menyalin, memodifikasi, dan mendistribusikan project ini,  
-selama menyertakan lisensi yang sama.  
+Project ini dirilis sebagai **open source**.  
+Artinya, kamu bebas menggunakan, menyalin, memodifikasi, dan mendistribusikan project ini.
 
 --- 
   
